@@ -11,7 +11,7 @@ const sellerCategories = [
       },
       {
         id: 2,
-        name:'Bridal & Groom-Footwear',
+        name:'Bridal&Groom-Footwear',
         image: 'https://i.pinimg.com/564x/e5/8d/43/e58d43922e699ad24b4977f0166f1d44.jpg',
         },
         {
@@ -21,14 +21,14 @@ const sellerCategories = [
             },
     {
       id: 4,
-      name:'Cards & Gifts',
+      name:'Cards&Gifts',
       image: 'https://i.pinimg.com/564x/90/6d/30/906d30e440bc9607d1fc3ab44f0a27f5.jpg',
       },
     
     {
       id: 5,
-      name:'Catering-Services',
-      image: 'https://i.pinimg.com/564x/b4/63/9e/b4639e28545e2ab813a5f47dfdeae3f3.jpg',
+      name:'MakeUp',
+      image: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWFrZXVwfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60.jpg',
       },
     {
       id: 6,
