@@ -21,7 +21,7 @@ const sellerCategories = [
             },
     {
       id: 4,
-      name:'Cards&Gifts',
+      name:'Cards-&Gifts',
       image: 'https://i.pinimg.com/564x/90/6d/30/906d30e440bc9607d1fc3ab44f0a27f5.jpg',
       },
     
