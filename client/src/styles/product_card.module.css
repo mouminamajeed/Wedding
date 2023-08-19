@@ -1,0 +1,38 @@
+.card__container {
+    max-width: 350px;
+    background-color: rgb(186, 230, 216);
+    border-radius: 7px;
+    overflow: hidden;
+    margin-bottom: 80px;
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+    transition: all 0.2s;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
+  }
+  
+  .card__container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  .card__details {
+    padding: 16px;
+  }
+  
+  .card__image {
+  }
+  
+  .card__title {
+  }
+  
+  .card__description {
+  }
+  
+  .card__price {
+  }
+  
+  .card__details-link {
+    text-decoration: none;
+  }
+  

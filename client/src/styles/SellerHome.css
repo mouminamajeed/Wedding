@@ -1,0 +1,38 @@
+/* SellerHome.css */
+
+.seller-home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Logout button */
+  .logout-button {
+    margin-top: 10px;
+  }
+  
+  /* Circular profile picture */
+  .seller-profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 20px;
+    border: 2px solid #333;
+  }
+  
+  .profile-picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Update Profile and Update Product buttons */
+  .update-profile-button,
+  .update-product-button {
+    margin-top: 20px;
+    width: 200px;
+  }
+  
+  

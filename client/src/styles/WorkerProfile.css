@@ -1,0 +1,78 @@
+.worker-card {
+  margin: auto;
+  margin-bottom: 20px;
+  color: white;
+  list-style: none;
+  width: 600px;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black */
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.worker-card:hover {
+  background-color: rgba(32, 33, 38, 0.8); /* Darker transparent black on hover */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Add a subtle box-shadow on hover */
+}
+
+.worker-picture-list {
+  height: 200px;
+  width: 200px;
+  float: right;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.worker-type {
+  text-align: center;
+  color: rgb(184, 193, 214);
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.worker-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.worker-card-link:hover,
+.worker-card-link:active,
+.worker-card-link:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.hire-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.back-img {
+  background-image: url("../assets/sunset-g35e2ec6e8_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.worker-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.para {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}

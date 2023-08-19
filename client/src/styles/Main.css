@@ -1,0 +1,101 @@
+.d-block, .w-100 {
+  height: 500px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+ 
+.background-image {
+   background-image: url("../assets/weddease_blk.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-bottom: 5%;
+    margin-top: 0;
+    height: 100vh;
+  
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    margin-top: 30%;
+    margin-right: 10%;
+  }
+  
+  .button-margin {
+    margin-right: 15px;
+  }
+  
+/* Main.css */
+
+/* ... (previous styles) ... */
+
+@media (max-width: 991px) {
+  /* Responsive adjustments for medium screens */
+  .background-image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 5%;
+    min-height: 60vh; /* Adjust the height for medium screens */
+    position: relative; /* Add position relative to create a positioning context */
+  }
+
+  .button-group {
+    display: flex;
+    flex-direction: column; /* Display buttons vertically */
+    align-items: flex-end; /* Align buttons to the right */
+    position: absolute; /* Position the button group relative to the background image */
+    top: 0; /* Adjust the top position as needed */
+    right: 5%; /* Adjust the right position as needed */
+    margin-bottom: 5%;
+  }
+
+  .button-group a {
+    margin-bottom: 15px; /* Add a gap between buttons */
+  }
+
+  .announcement-banner {
+    margin-bottom: 65%;
+    font-size: 18px; /* Adjust font size for announcement banner on medium screens */
+    padding: 10px; /* Adjust padding for announcement banner on medium screens */
+  }
+}
+
+@media (max-width: 767px) {
+  /* Responsive adjustments for small and extra small screens */
+  .background-image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0;
+    min-height: 40vh; /* Adjust the height for small screens */
+    position: relative; /* Add position relative to create a positioning context */
+  }
+
+  .button-group {
+    display: flex;
+    flex-direction: column; /* Display buttons vertically */
+    align-items: flex-end; /* Align buttons to the right */
+    position: absolute; /* Position the button group relative to the background image */
+    top: 0%; /* Adjust the top position as needed */
+    right: 0;
+    left: 60%; /* Adjust the right position as needed */
+  }
+
+  .button-group a {
+    margin-bottom: 15px; /* Add a gap between buttons */
+  }
+
+  .announcement-banner {
+    margin-bottom: 80%;
+    font-size: 16px; /* Adjust font size for announcement banner on small screens */
+    padding: 8px; /* Adjust padding for announcement banner on small screens */
+  }
+}

@@ -1,0 +1,114 @@
+.worker-home-container {  
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 40px;
+  align-items: center;
+  
+}
+
+.logout-button {
+  position: absolute;
+  top: 60px;
+  right: 25px;
+  background-color: #f44336; /* Red color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+.worker-home {
+  display: flex;
+  flex-direction: column;
+  
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px; /* Take full width on smaller screens */
+  max-width: 490px; /* Limit maximum width for larger screens */
+  margin: 10px;
+}
+
+
+.worker-profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.worker-profile h3 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.worker-profile p {
+  margin: 5px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+/* Update and Upload Buttons Styling */
+.update-btn {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+
+
+.calendar-container {
+  margin: 20px 5px;
+  margin-left: 30px;
+  text-align: center;
+  color: rgb(26, 18, 141);
+  padding-left:50px ;
+  
+}
+
+/* Styling for the Calendar */
+.calendar-wrapper {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.react-calendar {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Responsive Calendar Styling */
+@media (max-width: 768px) {
+  .calendar-container {
+    margin-left: 0;
+  }
+
+  .calendar-wrapper {
+    max-width: 100%;
+  }
+
+  .worker-home {
+    max-width: none;
+    align-items: center; /* Remove max-width for smaller screens */
+  }
+}

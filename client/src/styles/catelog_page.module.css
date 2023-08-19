@@ -1,0 +1,44 @@
+h1 {
+    color: red;
+  }
+  
+  .catelog__page {
+    background-color: rgb(236, 236, 235);
+    padding: 30px;
+  }
+  
+  .catelog__cards-container {
+    display: table;
+    clear: both;
+    width: 1140px;
+    margin: 0 auto;
+  }
+  
+  .catelog__backlink {
+    margin-bottom: 24px;
+    text-decoration: none;
+    color: rgb(55, 52, 52);
+    transition: all 0.2s;
+  }
+  
+  .catelog__backlink:hover {
+    color: blue;
+  }
+  
+  .catelog__heading {
+    margin-bottom: 40px;
+    background-image: linear-gradient(to bottom right, #5f2c82, #49a09d);
+    display: block;
+    width: max-content;
+    color: transparent;
+    background-clip: text;
+  }
+  
+  .catelog__heading,
+  .catelog__backlink {
+    margin-left: 10px;
+  }
+  
+  main {
+  }
+  

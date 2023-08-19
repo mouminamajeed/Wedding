@@ -1,0 +1,172 @@
+.categories {
+  text-align: center;
+  background-color:  #0f2862;
+  padding: 20px;
+  font-size: 14px;
+  margin: 5px 0;
+  text-decoration: none;
+  font-family: 'snell Roundhand', cursive;
+  font-weight: 100;
+}
+
+h1 {
+  color:rgb(191, 203, 214);
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.heading {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 26px;
+  text-align: center;
+  font-family: 'snell Roundhand', cursive;
+  background-color:rgb(217, 226, 234);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+}
+
+
+.menu {
+  width: 100%;
+}
+
+.menu-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 15px;
+  
+}
+
+
+.option {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  position: relative;
+  margin-bottom: 10px;
+  background-color: #e4decd;
+  border-radius: 22px;
+  padding: 15px;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(223, 125, 125, 0.895);
+}
+
+.option.active {
+  background-color: rgb(218, 232, 244);
+  box-shadow: none;
+}
+
+.option:hover {
+  background-color: #d3d0ca;
+  box-shadow: 0px 2px 6px rgba(165, 41, 41, 0.2);
+}
+
+.option span {
+  text-align: center;
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.menu-icon {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.sub-option {
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+  margin: 5px 0;
+  text-decoration: none;
+  font-family: 'snell Roundhand', cursive;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.sub-option:hover {
+  text-decoration: underline;
+}
+
+.sub-option img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+
+.menu-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.custom-card {
+  transition: transform 0.3s;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.custom-card .card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.custom-card .card-body {
+  padding: 15px;
+}
+
+.custom-card .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.custom-card .card-text {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.page{
+  background-color: rgb(218, 232, 244);
+}
+
+.option:hover .menu-icon {
+  transform: scale(1.05);
+}
+
+.option:hover .menu-background {
+  opacity: 0.8;
+}
+
+.menu-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.3s;
+}
+
+.sub-menu-options {
+  margin-top: 10px;
+}

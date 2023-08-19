@@ -1,0 +1,108 @@
+/* PaymentGatewayPage.css */
+
+.payment-gateway-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .payment-details {
+    margin-bottom: 20px;
+  }
+  
+  .payment-details p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .payment-form {
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .card-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .card-details input {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .card-details input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .expiry {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .expiry select {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 150px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .expiry select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .buy-now-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-now-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styling */
+  
+  @media (max-width: 600px) {
+    .payment-form {
+      max-width: 100%;
+    }
+  
+    .card-details input,
+    .expiry select {
+      max-width: 100%;
+    }
+  
+    .expiry {
+      flex-direction: column;
+    }
+  }
+  

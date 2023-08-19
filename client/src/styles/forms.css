@@ -1,0 +1,205 @@
+/* Styling for RegistrationForm component */
+
+.back {
+  background-image: url("../assets/sunset-g35e2ec6e8_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+} 
+
+.registration-form-container {
+  max-width: 80%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 20px;
+  background-color: #185141;
+  font-size: 18px;
+  background-color: rgba(159, 154, 187, 0.7);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 255, 0.7);
+}
+
+.registration-form-container h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.registration-form-container .input-field {
+  margin-bottom: 10px;
+  width: 70%;
+  margin-left: 90px; 
+}
+
+.registration-form-container label {
+  margin-left: 90px;
+}
+
+.registration-form-container .submit-button {
+  margin-top: 20px;
+  height: 50px;
+}
+
+/* Login form container */
+.login-form-container {
+  max-width: 400px;
+  margin-top: 7%;
+  margin-bottom: 30%;
+  padding: 50px;
+  font-size: 18px;
+  background-color: rgba(159, 154, 187, 0.7);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(115, 80, 80, 0.1), 0 0 20px rgba(0, 0, 255, 0.7);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-form-container h2 {
+  font-size: 24px;
+  margin-top: 0;
+  font-size:30px;
+}
+
+
+
+.login-form-container .input-field {
+  margin-bottom: 10px;
+}
+
+.login-form-container .submit-button {
+  margin-top: 20px;
+  height: 50px;
+}
+
+.signup-link {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.error-message {
+  color: #dc3545;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.inputs-field {
+  display: block;
+  width: 250px; /* Adjust the width as needed */
+  margin: 10px auto; /* Center the input box horizontally and add vertical spacing */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.profile-pic-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; /* Add spacing between the profile picture and other fields */
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.update-pic-button {
+  display: block;
+  margin-top: 10px;
+}
+
+.cancel-button {
+  margin-top: 10px;
+  font-size: large;
+}
+
+/* UploadProduct.css */
+
+.uploaded-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.uploaded-image-card {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.uploaded-image {
+  width: 100%; /* Ensure images fill the entire card width */
+  height: auto;
+  max-height: 150px;
+}
+
+.delete-button {
+  margin-top: 10px;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 767px) {
+  .registration-form-container {
+    max-width: 90%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+
+  .registration-form-container .input-field {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .registration-form-container label {
+    margin-left: 0;
+  }
+
+  .login-form-container {
+    max-width: 90%;
+    margin-top: 12%;
+    margin-bottom: 20%;
+    padding: 30px;
+    font-size: 16px;
+  }
+
+  .login-form-container h2 {
+    font-size: 22px;
+  }
+
+  .login-form-container .input-field {
+    width: 100%;
+  }
+
+  .error-message {
+    font-size: 12px;
+  }
+  .back {
+    background-size: cover;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

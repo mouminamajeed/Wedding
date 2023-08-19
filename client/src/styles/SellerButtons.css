@@ -1,0 +1,106 @@
+.home-page {
+    background-image: url('../assets/sunset-g35e2ec6e8_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    
+  }
+  
+  .content-container {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  .welcome-text {
+    color: white;
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .worker-button {
+    background-color: rgba(45, 158, 184, 0.5);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .seller-button {
+    background-color: rgba(23, 42, 149, 0.4);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .worker-button:hover, .seller-button:hover {
+    background-color: #3e36a7;
+  }
+  
+  .worker-button:active, .seller-button:active {
+    background-color: #1e7e34;
+  }
+  
+  .worker-button:focus, .seller-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  @media screen and (max-width: 767px) {
+    .home-page {
+      background-size: cover;
+    }
+  
+    .welcome-text {
+      font-size: 22px; /* Decrease font size for smaller screens */
+    }
+  
+    .worker-button,
+    .seller-button {
+      width: 80%; /* Make the buttons occupy 80% of the screen width */
+      margin-left: 0; /* Remove left margin */
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .home-page {
+      background-size: cover; /* Set the background size to cover the whole screen on small screens */
+    }
+  
+    .welcome-text {
+      font-size: 18px; /* Decrease font size for extra small screens */
+    }
+  
+    .worker-button,
+    .seller-button {
+      width: 100%; /* Make the buttons occupy 100% of the screen width */
+      max-width: 200px; /* Add a maximum width to prevent excessive expansion */
+      margin-left: 0; /* Remove left margin */
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
